@@ -78,7 +78,7 @@ it("Para saludar a alguien hay que saber la hora. Si es antes de las 12, le deci
          // Escribe aquí tu condicional contemplando las 3 casuísticas
          if(hour < 12){
             saludo = 'Buenos días';
-            }else if(hour >= 12 && hour <= 18){
+            }else if(hour >= 12 && hour <= 20){
                 saludo = 'Buenas tardes';
                 }else{saludo = 'Buenas noches'
             }
